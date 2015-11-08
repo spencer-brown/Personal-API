@@ -1,12 +1,12 @@
-var http = require('http');
+var express = require('express');
+var app = express();
 
-var server = http.createServer(function(req, res){
-	res.writeHead(200, {'Content-Type':'text/html'});
-	res.end('<h2>A Personal API for Mehak Vohra</h2>');
+app.get('/', function (req, res) {
+	res.end('A Personal API for Mehak Vohra');
 });
 
 var port = Number(process.env.PORT || 3000);
 
-
-server.listen(port);
+//Starting a Server
+app.listen(port);
 console.log('API server started on port ' + port);
