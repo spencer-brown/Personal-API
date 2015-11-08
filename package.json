@@ -1,20 +1,40 @@
 {
-    "name": "api",
-    "main": "server.js",
-    "dependencies": {
-        "express": "~4.12.3",
-        "morgan": "~1.5.2",
-        "ejs": "~2.3.1",
-        "express-partials": "~0.3.0",
-		"q": "~1.4.1",
-        "memory-cache": "~0.1.4",
-        "async": "~1.4.0",
-        "fb": "~0.7.0",
-        "fitbit-node": "~0.1.0",
-        "strava-v3": "~1.8.0",
-        "twitter-node-client": "~0.0.6",
-        "github": "~0.2.4",
-        "feed-read": "~0.0.1",
-        "automatic-api": "~0.9.4"
-    }
+  "name": "mehak-personal-api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.12.3",
+    "morgan": "~1.5.2",
+    "ejs": "~2.3.1",
+    "express-partials": "~0.3.0",
+    "q": "~1.4.1",
+    "memory-cache": "~0.1.4",
+    "async": "~1.4.0",
+    "fb": "~0.7.0",
+    "fitbit-node": "~0.1.0",
+    "strava-v3": "~1.8.0",
+    "twitter-node-client": "~0.0.6",
+    "github": "~0.2.4",
+    "feed-read": "~0.0.1",
+    "automatic-api": "~0.9.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "description": "A personal API for Mehak Vohra",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watthemehak/Personal-API.git"
+  },
+  "keywords": [
+    "Mehak",
+    "Vohra",
+    "watthemehak"
+  ],
+  "author": "Mehak Vohra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/watthemehak/Personal-API/issues"
+  },
+  "homepage": "https://github.com/watthemehak/Personal-API#readme"
 }
