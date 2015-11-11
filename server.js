@@ -7,8 +7,6 @@ app.get('/', function (req, res) {
 
 var port = Number(process.env.PORT || 3000);
 
-var name = [{ Name: 'Mehak Vohra'}];
-
 app.get('/name', function(req, res) {
 	res.json(name)
 });
