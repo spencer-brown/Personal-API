@@ -2,21 +2,21 @@
   "name": "mehak-personal-api",
   "main": "index.js",
   "dependencies": {
-    "express": "~4.12.3",
-    "body-parser": "~1.0.1",
-    "morgan": "~1.5.2",
-    "ejs": "~2.3.1",
-    "express-partials": "~0.3.0",
-    "q": "~1.4.1",
-    "memory-cache": "~0.1.4",
     "async": "~1.4.0",
+    "automatic-api": "~0.9.4",
+    "body-parser": "~1.0.1",
+    "ejs": "~2.3.1",
+    "express": "^4.12.4",
+    "express-partials": "~0.3.0",
     "fb": "~0.7.0",
-    "fitbit-node": "~0.1.0",
-    "strava-v3": "~1.8.0",
-    "twitter-node-client": "~0.0.6",
-    "github": "~0.2.4",
     "feed-read": "~0.0.1",
-    "automatic-api": "~0.9.4"
+    "fitbit-node": "~0.1.0",
+    "github": "~0.2.4",
+    "memory-cache": "~0.1.4",
+    "morgan": "~1.5.2",
+    "q": "~1.4.1",
+    "strava-v3": "~1.8.0",
+    "twitter-node-client": "~0.0.6"
   },
   "scripts": {
     "start": "node server.js"
