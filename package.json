@@ -16,6 +16,7 @@
     "morgan": "~1.5.2",
     "q": "~1.4.1",
     "strava-v3": "~1.8.0",
+    "twitter": "^1.2.5",
     "twitter-node-client": "~0.0.6"
   },
   "scripts": {
