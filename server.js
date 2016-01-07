@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-	res.write('Welcome to the API of Mehak Vohra'); 
+	res.send('Welcome to the API of Mehak Vohra'); 
 });
 
 //API Setup
