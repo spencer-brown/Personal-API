@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-	res.send('A Personal API for Mehak Vohra');
+	res.write('Welcome to the API of Mehak Vohra'); 
 });
 
 //API Setup
@@ -14,5 +14,6 @@ require('./app/routes.js')(app);
 
 
 //Starting a Server
-app.listen(port);
-console.log('API server started on port ' + port);
+app.listen(port, function() {
+    console.log('API server started on port ' + port);
+});
